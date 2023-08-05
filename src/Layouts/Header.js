@@ -14,9 +14,9 @@ const Header = () => {
   };
 
   return (
-    <nav className="bg-gray-800 border-gray-200 dark:bg-gray-900">
+    <nav className="bg-gray-800 text-white border-gray-200 dark:bg-gray-900">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <div className="flex items-center flex-shrink-0 text-white mr-6">
+        <div className="flex items-center flex-shrink-0 mr-6">
           <Link to="/" className="font-semibold text-2xl tracking-tight">
             Sudama Dhakad
           </Link>
@@ -58,7 +58,7 @@ const Header = () => {
             <li>
               <Link
                 to="/"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/"
                 )}`}
               >
@@ -69,7 +69,7 @@ const Header = () => {
             <li>
               <Link
                 to="/about"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/about"
                 )}`}
               >
@@ -79,7 +79,7 @@ const Header = () => {
             <li>
               <Link
                 to="/educations"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/educations"
                 )}`}
               >
@@ -89,7 +89,7 @@ const Header = () => {
             <li>
               <Link
                 to="/experiences"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/experiences"
                 )}`}
               >
@@ -99,7 +99,7 @@ const Header = () => {
             <li>
               <Link
                 to="/skills"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/skills"
                 )}`}
               >
@@ -109,7 +109,7 @@ const Header = () => {
             <li>
               <Link
                 to="/projects"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/projects"
                 )}`}
               >
@@ -119,7 +119,7 @@ const Header = () => {
             <li>
               <Link
                 to="/resume"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/resume"
                 )}`}
               >
@@ -129,7 +129,7 @@ const Header = () => {
             <li>
               <Link
                 to="/contact"
-                className={`block mt-4 lg:inline-block lg:mt-0 text-white hover:text-green-400 mr-4 ${isLinkActive(
+                className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/contact"
                 )}`}
               >
