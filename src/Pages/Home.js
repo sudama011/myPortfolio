@@ -4,16 +4,19 @@ import pic from "../Assets/pic.png";
 const Home = () => {
   return (
     <div className="flex flex-row text-white h-full w-full">
-      <div className="flex flex-col justify-center items-center w-1/2">
+      <div className="text-gray-300 flex flex-col justify-center items-center w-1/2 p-4">
         <TypeAnimation
           sequence={[
-            `Welcome to my portfolio!\nI'm a Full Stack Developer`,
-            1000,
-            "",
+            `Hi, I'm Sudama Dhakad. I'm a Full Stack Developer.
+            My goal is to keep pushing the boundaries of what's possible in web development.
+            I'm constantly seeking new challenges and projects to expand my skills and create meaningful experiences for users.
+            Thank you for visiting my portfolio! 
+            I hope you find my projects and creations inspiring. 
+            Let's connect and explore the possibilities of working together on exciting projects.`,
           ]}
-          speed={50}
-          style={{ whiteSpace: "pre-line", fontSize: "2em" }}
-          repeat={Infinity}
+          speed={65}
+          style={{ whiteSpace: "pre-line", fontSize: "24px" }}
+          deletionSpeed={0}
         />
       </div>
       <div className="flex flex-col justify-center items-center w-1/2">
