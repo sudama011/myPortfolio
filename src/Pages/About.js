@@ -1,36 +1,44 @@
-import React from 'react'
+import React from "react";
 
 const About = () => {
   return (
-    <div className="flex text-lg text-white mx-auto p-6">
-      Hello there! I'm Sudama Dhakad, a passionate Full Stack Developer with a
-      love for building innovative web applications. As a developer, I am
-      well-versed in a variety of technologies and frameworks. My coding journey
-      started with C/C++ and DSA, and I soon fell in love with JavaScript, which
-      opened the doors to the dynamic world of web development. With hands-on
-      experience in SQL (MySQL), I have the skills to handle data and databases
-      effectively. On the front-end, I have honed my expertise in HTML, CSS, and
-      various libraries and frameworks such as ReactJS. Building responsive and
-      user-friendly interfaces is my forte. I also have experience in working
-      with Bootstrap and Tailwind CSS, making sure my designs are not only
-      functional but also visually appealing. When it comes to the back-end, I'm
-      no stranger to Node.js, Express, and MongoDB. These tools allow me to
-      create robust server-side applications and work with databases
-      efficiently. I have also explored Firebase to build real-time applications
-      with ease. Additionally, I'm well-versed in utilizing popular developer
-      tools like Git, Github, and VS Code, which enhance my productivity and
-      collaboration with other team members. Apart from my technical skills, I'm
-      a team player with excellent problem-solving abilities and effective
-      communication skills. I believe in the power of collaboration and
-      adaptability, which helps me thrive in challenging environments. My goal
-      is to keep pushing the boundaries of what's possible in web development.
-      I'm constantly seeking new challenges and projects to expand my skills and
-      create meaningful experiences for users. Thank you for visiting my
-      portfolio! I hope you find my projects and creations inspiring. Let's
-      connect and explore the possibilities of working together on exciting
-      projects.
+    <div className="container mx-auto py-6 p-2">
+      <h1 className="text-2xl font-semibold mb-4">About Me</h1>
+      <p className="mb-4">
+        Hi there! I'm Sudama Dhakad, a passionate Full Stack Developer with a
+        strong enthusiasm for creating innovative web applications that make a
+        difference in people's lives. My journey in the world of coding began
+        with C/C++ and Data Structures and Algorithms (DSA), and it eventually
+        led me to explore the vast possibilities of JavaScript and web
+        development.
+      </p>
+      <p className="mb-4">
+        As a developer, I thrive on the challenges of building responsive and
+        user-friendly interfaces using HTML, CSS, and modern front-end libraries
+        and frameworks like ReactJS. My skills also extend to creating efficient
+        server-side applications using Node.js, Express, and MongoDB to handle
+        data and build robust back-end systems.
+      </p>
+      <p className="mb-4">
+        I have a deep curiosity for learning and constantly seek out
+        opportunities to expand my knowledge and stay up-to-date with the latest
+        technologies. Collaboration is at the core of my approach, and I value
+        teamwork and open communication to deliver exceptional results.
+      </p>
+      <p className="mb-4">
+        When I'm not coding, you can find me exploring new coding challenges,
+        reading tech blogs, or enjoying a cup of coffee while brainstorming new
+        project ideas. I'm truly excited about the future of technology and the
+        endless possibilities it offers, and I can't wait to embark on new
+        adventures in the world of software development.
+      </p>
+      <p className="">
+        Thank you for visiting my portfolio! Feel free to explore my projects
+        and get in touch if you'd like to collaborate or have any questions.
+        Let's create something amazing together!
+      </p>
     </div>
   );
-}
+};
 
-export default About
+export default About;
