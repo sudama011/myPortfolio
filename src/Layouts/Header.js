@@ -118,7 +118,9 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/resume"
+                target="_blank"
+                rel="noopener noreferrer"
+                to="https://drive.google.com/file/d/1KIwIZbvtPsSK_oq4OvhAJVZG-IznUteA/view?usp=drive_link"
                 className={`block mt-4 lg:inline-block lg:mt-0 hover:text-green-400 mr-4 ${isLinkActive(
                   "/resume"
                 )}`}
