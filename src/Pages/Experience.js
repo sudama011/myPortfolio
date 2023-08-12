@@ -8,7 +8,8 @@ const Experience = () => {
       location: "Remote",
       duration: "July 2023 - August 2023",
       description:
-        "Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        `Developed a user-friendly ecommerce platform with smart search, secure checkout, and cart persistence features. Utilized MERN stack for robust functionality, showcasing expertise in web
+development and UI design.`,
       certificateLink:
         "https://drive.google.com/file/d/1EbUJBo7YOgcpGQV5JzKU5WPzeLhkdLrp/view?usp=drive_link",
     },

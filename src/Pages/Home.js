@@ -1,11 +1,11 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import pic from "../Assets/pic.png";
+import pic from "../Assets/images/sudama_full_transparent.png";
 const Home = () => {
   return (
     <div className="flex flex-row text-white h-full w-full mt-3">
-      <div className="flex flex-col justify-center md:ml-10 lg:ml-24 w-1/2 pl-3">
-        <h1 className="text-4xl text-green-400 font-bold mb-5">Sudama Dhakad</h1>
+      <div className="flex flex-col mt-10 md:mt-60 md:ml-10 lg:ml-24 w-3/5 sm:w-1/2 pl-3">
+        <h1 className="text-2xl sm:text-4xl text-green-400 font-bold mb-2">Sudama Dhakad</h1>
 
         <TypeAnimation
           sequence={[
@@ -20,11 +20,12 @@ const Home = () => {
           ]}
           wrapper="strong"
           speed={65}
-          style={{ whiteSpace: "pre-line", fontSize: "24px", color: "#f0f" }}
+          className="text-xl sm:text-4xl text-fuchsia-600"
+          style={{ whiteSpace: "pre-line" }}
           repeat={Infinity}
         />
       </div>
-      <div className="flex flex-col  items-center w-1/2 h-fit">
+      <div className="flex flex-col  items-center w-1/3 sm:w-2/5 h-fit">
         <img src={pic} alt="sudama.png" />
       </div>
     </div>

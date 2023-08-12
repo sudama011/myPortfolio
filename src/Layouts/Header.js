@@ -1,5 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+import { FaGoogleDrive, FaHome } from "react-icons/fa";
+import { BsFillPersonFill } from "react-icons/bs";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { GiSkills } from "react-icons/gi";
+import { MdWork } from "react-icons/md";
+import { RiContactsBook2Line } from "react-icons/ri";
+import { MdCastForEducation } from "react-icons/md";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -62,6 +69,7 @@ const Header = () => {
                   "/"
                 )}`}
               >
+                <FaHome className="inline mr-1" size="1.2em" color="white" />
                 Home
               </Link>
             </li>
@@ -73,6 +81,11 @@ const Header = () => {
                   "/about"
                 )}`}
               >
+                <BsFillPersonFill
+                  className="inline mr-1"
+                  size="1.2em"
+                  color="white"
+                />
                 About
               </Link>
             </li>
@@ -83,6 +96,11 @@ const Header = () => {
                   "/educations"
                 )}`}
               >
+                <MdCastForEducation
+                  className="inline mr-1"
+                  size="1.2em"
+                  color="white"
+                />
                 Educations
               </Link>
             </li>
@@ -93,6 +111,11 @@ const Header = () => {
                   "/experiences"
                 )}`}
               >
+                <AiOutlineFundProjectionScreen
+                  className="inline mr-1"
+                  size="1.2em"
+                  color="white"
+                />
                 Experiences
               </Link>
             </li>
@@ -103,6 +126,7 @@ const Header = () => {
                   "/skills"
                 )}`}
               >
+                <GiSkills className="inline mr-1" size="1.2em" color="white" />
                 Skills
               </Link>
             </li>
@@ -113,6 +137,7 @@ const Header = () => {
                   "/projects"
                 )}`}
               >
+                <MdWork className="inline mr-1" size="1.2em" color="white" />
                 Projects
               </Link>
             </li>
@@ -125,6 +150,11 @@ const Header = () => {
                   "/resume"
                 )}`}
               >
+                <FaGoogleDrive
+                  className="inline mr-1"
+                  size="1.2em"
+                  color="white"
+                />
                 Resume
               </Link>
             </li>
@@ -135,6 +165,11 @@ const Header = () => {
                   "/contact"
                 )}`}
               >
+                <RiContactsBook2Line
+                  className="inline mr-1"
+                  size="1.2em"
+                  color="white"
+                />
                 Contact
               </Link>
             </li>
